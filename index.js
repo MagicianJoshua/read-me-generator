@@ -34,7 +34,7 @@ inquirer.prompt ([{
     },
 ]).then(function (response) {
     
-    var readMeFile = `# Title`
+    var readMeFile = `# ${response.title} <br>`
 
 
 
