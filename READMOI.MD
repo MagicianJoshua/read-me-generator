@@ -1,19 +1,19 @@
-# asdf
+# README generator ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ## Description <br>
-asdf <br>
+This readme is for the node.js app that generates readme files in the terminal <br>
 ## Table of contents <br>
-[Installation](#installation) <br>
-[Usage](#usage) <br>
-[License](#license) <br>
-[Contribution Guidelines](#Contribution-Guidelines) <br>
-[Questions](#questions) <br>
+[Installation](#installation-) <br>
+[Usage](#usage-) <br>
+[License](#license-) <br>
+[Contribution Guidelines](#Contribution-Guidelines-) <br>
+[Questions](#questions-) <br>
 
 ## Installation <br>
-ff <br>
+You must have inquirer v8.2.4 downloaded, once its downloaded you are good to go <br>
 ## Usage <br>
-fgg <br>
+The command line will prompt you with questions and you answer them  <br>
 ## License <br>
-Copyright <2023> <[magicianjoshua](https://github.com/magicianjoshua)> <br>
+Copyright <2023> <[Magicianjoshua](https://github.com/Magicianjoshua)> <br>
         
 
 Permission is hereby granted, free of charge, to any person obtaining a copy 
@@ -32,6 +32,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTH
 BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT
 OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. <br> 
 ## Contribution Guidelines <br> 
-asdfg <br>
+Contact my email provided in the questions section <br>
 ## Questions <br> 
+Here is a link to my github account [Magicianjoshua](https://github.com/Magicianjoshua)
 If you have any additional questions please feel free to contact me here joshuajordyn@hotmail.com

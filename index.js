@@ -94,15 +94,15 @@ limitations under the License.`
 
 
 //! Because im using template literal it has to be written like this or it indents itself on the readme
-    var readMeFile = `# ${response.title}
+    var readMeFile = `# ${response.title} ![License: ${response.license}](https://img.shields.io/badge/License-${response.license}-green.svg)
 ## Description <br>
 ${response.description} <br>
 ## Table of contents <br>
-[Installation](#installation) <br>
-[Usage](#usage) <br>
-[License](#license) <br>
-[Contribution Guidelines](#Contribution-Guidelines) <br>
-[Questions](#questions) <br>
+[Installation](#installation-) <br>
+[Usage](#usage-) <br>
+[License](#license-) <br>
+[Contribution Guidelines](#Contribution-Guidelines-) <br>
+[Questions](#questions-) <br>
 
 ## Installation <br>
 ${response.installation} <br>
@@ -113,6 +113,7 @@ ${licenses[response.license]} <br>
 ## Contribution Guidelines <br> 
 ${response.contributions} <br>
 ## Questions <br> 
+Here is a link to my github account [${response.username}](https://github.com/${response.username}) <br>
 If you have any additional questions please feel free to contact me here ${response.email}`;
 
 
