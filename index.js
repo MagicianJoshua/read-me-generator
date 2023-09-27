@@ -1,10 +1,21 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 
-inquirer.prompt ([{   
+inquirer.prompt ([
+    {
+    type:`input`,
+    name: `username`,
+    message:`What is your github username?`
+    }, 
+    {
+        type:`input`,
+        name:`email`,
+        message:`Please enter your email.`
+    },
+    {   
     type: 'input',
     name: 'title',
-    message: 'What is the name of your README?'
+    message: 'What is the title of your README?'
     },
     {
     type: 'input',
@@ -27,14 +38,82 @@ inquirer.prompt ([{
     message: 'What license would you like your README to contain?',
     choices: ["MIT","GPLv2","Apache","GPLv3","No license"],
     },
+    
     {        
     type: 'input',
     name: 'contributions',
     message: 'Enter if and how you would like people to contribute to this project.',
     },
+    {
+    type: 'input',
+    name: 'Tests',
+    message: 'What tests have been done to ensure the quality of your work?'
+    }, 
+    {
+    type:`input`,
+    name: `questions`,
+    message:`What is your github username?`
+    }
+    
 ]).then(function (response) {
     
-    var readMeFile = `# ${response.title} <br>`
+    const licenses = {
+        "MIT": `Copyright <2023> <[${response.username}](https://github.com/${response.username})> <br>
+        \n
+Permission is hereby granted, free of charge, to any person obtaining a copy 
+of this software and associated documentation files (the “Software”), 
+to deal in the Software without restriction, including without limitation the 
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
+copies of the Software, and to permit persons to whom the Software is furnished to
+do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software. 
+        
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, 
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS 
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT
+OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.` ,
+
+"Apache":`Copyright <2023> <[${response.username}](https://github.com/${response.username})>
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+        
+http://www.apache.org/licenses/LICENSE-2.0
+        
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.`
+    }
+
+
+
+//! Because im using template literal it has to be written like this or it indents itself on the readme
+    var readMeFile = `# ${response.title}
+## Description <br>
+${response.description} <br>
+## Table of contents <br>
+[Installation](#installation) <br>
+[Usage](#usage) <br>
+[License](#license) <br>
+[Contribution Guidelines](#Contribution-Guidelines) <br>
+[Questions](#questions) <br>
+
+## Installation <br>
+${response.installation} <br>
+## Usage <br>
+${response.usage} <br>
+## License <br>
+${licenses[response.license]} <br> 
+## Contribution Guidelines <br> 
+${response.contributions} <br>
+## Questions <br> 
+If you have any additional questions please feel free to contact me here ${response.email}`;
 
 
 
