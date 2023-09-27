@@ -46,15 +46,9 @@ inquirer.prompt ([
     },
     {
     type: 'input',
-    name: 'Tests',
+    name: 'tests',
     message: 'What tests have been done to ensure the quality of your work?'
-    }, 
-    {
-    type:`input`,
-    name: `questions`,
-    message:`What is your github username?`
-    }
-    
+    } 
 ]).then(function (response) {
     
     const licenses = {
@@ -121,6 +115,8 @@ ${response.usage} <br>
 ${licenses[response.license]} <br> 
 ## Contribution Guidelines <br> 
 ${response.contributions} <br>
+## Tests <br>
+${response.tests}
 ## Questions <br> 
 Here is a link to my github account [${response.username}](https://github.com/${response.username}) <br>
 If you have any additional questions please feel free to contact me here ${response.email}`;
@@ -157,3 +153,8 @@ If you have any additional questions please feel free to contact me here ${respo
 // THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 // WHEN I click on the links in the Table of Contents
 // THEN I am taken to the corresponding section of the README
+
+
+//step one use node to open the index file
+//step two answer the criteria that is given to you 
+// step three: your readme will be generated!
