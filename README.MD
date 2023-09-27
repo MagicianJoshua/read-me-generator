@@ -37,5 +37,6 @@ If you would like to contribute to this project please refer to the license, fur
 ## Tests <br>
 This readme has been generated with the readme generator program, other than that no extensive testing has been done, if you would like to report a bug send it to my email which is located in the questions section
 ## Questions <br> 
+Here is a link to the video demonstrating how to use this program [Walkthrough Video](https://drive.google.com/file/d/1vmtCkQcOabyqb62ciXURbHaAknfFg96D/view?usp=drive_link)
 Here is a link to my github account [magicianjoshua](https://github.com/magicianjoshua) <br>
 If you have any additional questions please feel free to contact me here joshuajordyn@hotmail.com
