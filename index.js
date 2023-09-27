@@ -105,6 +105,7 @@ ${response.description} <br>
 [Usage](#usage-) <br>
 [License](#license-) <br>
 [Contribution Guidelines](#Contribution-Guidelines-) <br>
+[Tests](#tests-)<br>
 [Questions](#questions-) <br>
 
 ## Installation <br>
@@ -129,7 +130,7 @@ If you have any additional questions please feel free to contact me here ${respo
 
 
 
-    fs.writeFile("READMOI.MD",readMeFile, function(err){
+    fs.writeFile("README.MD",readMeFile, function(err){
         if (err) throw err;
         console.log("saved");
     })

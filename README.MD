@@ -1,17 +1,18 @@
 # README Generator ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ## Description <br>
-This readme is usefull for the following, If you would like to contribute, learn how to install this program or contact me then look no further than this readme <br>
+This readme is usefull for the following reasons, if you would like to contribute, learn how to install this program or contact me then look no further than this readme! <br>
 ## Table of contents <br>
 [Installation](#installation-) <br>
 [Usage](#usage-) <br>
 [License](#license-) <br>
 [Contribution Guidelines](#Contribution-Guidelines-) <br>
+[Tests](#tests-)<br>
 [Questions](#questions-) <br>
 
 ## Installation <br>
-In order for this program to work you MUST have nodeJS installed on your machine, after installing node you must install inquirer v8.2.4 with npm <br>
+In order for this program to work you must first install nodeJS, after installing nodeJS you must use npm to install inquirer v8.2.4 <br>
 ## Usage <br>
-This application is ran in the terminal, in order to start this program you must navigate to the folder where the index.js resides and type the following command "node index.js" <br>
+This application is ran in the terminal, in order to start the program you must navigate to the folder the the index.js file is in and type the following command "node index.js" <br>
 ## License <br>
 Copyright <2023> <[magicianjoshua](https://github.com/magicianjoshua)> <br>
         
@@ -32,9 +33,9 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTH
 BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT
 OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. <br> 
 ## Contribution Guidelines <br> 
-If you would like to contribute, please refer to the license. If you have any further questions please contact me at my email which is provided in the questions section of this readme <br>
+If you would like to contribute to this project please refer to the license, furthermore if you have any questions don't be afraid to contact me, my email is in the questions section of this readme <br>
 ## Tests <br>
-This readme was actually generated my this program! other than that no actual testing has been done to ensure the quality of the readme generator, if you find any bugs please email me and let me know!
+This readme has been generated with the readme generator program, other than that no extensive testing has been done, if you would like to report a bug send it to my email which is located in the questions section
 ## Questions <br> 
 Here is a link to my github account [magicianjoshua](https://github.com/magicianjoshua) <br>
 If you have any additional questions please feel free to contact me here joshuajordyn@hotmail.com
